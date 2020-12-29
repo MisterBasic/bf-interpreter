@@ -32,4 +32,4 @@ def get_instructions_in_string(string):
             i.append(c)
     return i
 def wrap(i):
-    i %= 255
+    return i %= 255
